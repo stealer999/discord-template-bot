@@ -1,0 +1,14 @@
+{
+  "name": "discord-template-bot",
+  "version": "1.0.0",
+  "description": "Bot untuk membuat template channel Discord otomatis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands/deploy.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  }
+}
